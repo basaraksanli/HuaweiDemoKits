@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">BasarDemo</string>
+    <string name="account_kit_demo">Account Kit Demo</string>
+    <string name="map_kit_demo">Map Kit Demo</string>
+    <string name="location_kit_demo">Location Kit Demo</string>
+    <string name="title_activity_account">Account</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="account_title">Huawei Account Usage Process</string>
+    <string name="id_token_mode_signin">ID-Token Mode SignIn</string>
+    <string name="authorizationcode_mode_signin">AuthorizationCode Mode SignIn</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="requestlocationupdateswithcallback">requestLocationUpdatesWithCallback</string>
+    <string name="requestlocationupdates_with_callback">requestLocationUpdates with callback</string>
+    <string name="removelocationupdates_with_callback">RemoveLocationUpdates with callback</string>
+    <string name="log_n">Log: \n</string>
+    <string name="push_kit_demo">Push Kit Demo</string>
+    <string name="pushlog">PushLog:</string>
+    <string name="drive_kit_demo">Drive Kit Demo</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="setting_button">Settings</string>
+    <string name="next_button">Next</string>
+    <string name="post_score_button">Post Score</string>
+    <string name="save_setting_button">Save</string>
+    <string name="q1">The largest planet in the solar system is Jupiter</string>
+    <string name="q2">The first Olympic Games were held in Athens, Greece</string>
+    <string name="q3">The violin has 6 strings</string>
+    <string name="q4">Flying bats belong to birds</string>
+    <string name="q5">Sound spreads faster in the water than in the air</string>
+    <string name="wrong_answer">The answer is wrong.</string>
+    <string name="correct_answer">The answer is correct.</string>
+    <string name="analytics_kit">Analytics Kit</string>
+    <string name="scan_kit_demo">Scan Kit Demo</string>
+    <string name="game_kit_demo">Game Kit Demo</string>
+    <string name="crash_demo">Crash Demo</string>
+</resources>

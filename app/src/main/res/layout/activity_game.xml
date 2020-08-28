@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF">
+
+            <Button
+                android:background="@drawable/btn_nor_down"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Init"
+                android:id="@+id/codelab_init"/>
+
+            <Button
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_nor_down"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="SignIn"
+                android:id="@+id/codelab_signIn"/>
+            <Button
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_nor_down"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="GetCurrentPlayer"
+                android:id="@+id/codelab_gameLogin"/>
+
+            <Button
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_nor_down"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="GetAchievementList"
+                android:id="@+id/achievementListButton"/>
+
+            <Button
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_nor_down"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Show Achievement List"
+                android:id="@+id/achievementListShowButton"/>
+            <Button
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_nor_down"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Unlock Achievement"
+                android:id="@+id/unlockachievementButton"/>
+
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/LogGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
